@@ -1,0 +1,62 @@
+# Gradle
+.gradle
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android
+.DS_Store
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+local.properties
+proguard-mappings.txt
+.idea/
+*.iml
+*.aar
+*.jks
+*.keystore
+
+# Kotlin
+*.kt.bak
+.kotlin/
+
+# Generated files
+captures/
+.externalNativeBuild
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+
+# Secrets
+secrets/
+.env
+*.keystore
+release.keystore
+service-account-key.json
+
+# Logs
+*.log
